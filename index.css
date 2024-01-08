@@ -1,0 +1,183 @@
+body {
+    background-color: black;
+}
+
+.tag{
+    height:15vh ;
+    width: 100%;
+
+    text-align: center;
+    margin: center;
+    padding: 25px;
+}
+.tag h1{
+    font-size: 6rem;
+    color: white;
+}
+.nav {
+
+    height: 15vh;
+    width: 100%;
+
+    margin-right: 30px;
+    display: flex;
+
+    color: white;
+    gap: 40px;
+    justify-content: flex-end;
+    text-align: center;
+    position: fixed;
+    cursor: pointer;
+
+}
+
+.nav h4 {
+    font-size: 25px;
+    font-weight: 900;
+    padding: 20px;
+   
+}
+
+.nav h4:hover {
+
+
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.main {
+    background: linear-gradient(lightblue, ivory, grey, beige);
+    min-width: 600px;
+    border-radius: 16px;
+
+    box-shadow: 10px 10px 15px(0, 0, 0, 0.5);
+
+    padding: 20px;
+    margin-left: 50px;
+    min-height: 100vh;
+
+}
+
+.main h1 {
+    text-align: center;
+
+}
+
+hr {
+    width: 500px;
+    margin: 2px auto;
+}
+
+.team {
+
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.ceo {
+    cursor: pointer;
+    margin: center;
+    justify-content: center;
+    text-align: center;
+    transition: all ease-in 0.2s;
+}
+
+.ceo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.ceo:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    BORDER: 3px solid black;
+
+}
+
+.member h4,
+p {
+    text-align: center;
+    font-size: 12px;
+    margin: 8px;
+}
+
+.member:hover {
+
+    transform: rotate3d(-2, 1, 0, 40deg);
+    color: red;
+}
+
+.member {
+    transition: all ease-in 0.4s;
+    cursor: pointer;
+}
+
+@media (max-width:1280px) {
+    .nav {
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+        cursor: pointer;
+        height: 10vh;
+        background-color: black;
+        position: fixed;
+    }
+
+    .nav h4 {
+        font-size: 25px;
+        
+        padding: 20px;
+        border: none;
+        text-align: center;
+
+    }
+
+    .main {
+        margin-top: 70px;
+
+        flex-wrap: wrap;
+
+
+    }
+
+    .main h1 {
+        color: red;
+    }
+
+    .nav h4:hover {
+
+        color: pink;
+
+
+    }
+.tag{
+    
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100%;
+    
+
+
+    
+    
+}
+.tag h1{
+    font-size: 40px;
+    
+    
+
+}
+
+}
